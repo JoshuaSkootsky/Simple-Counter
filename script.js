@@ -1,4 +1,3 @@
-
 function counterMaker(incr) {
   let count = 0;
   return function () {
