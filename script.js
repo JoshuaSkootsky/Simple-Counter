@@ -6,8 +6,13 @@ function counterMaker(incr) {
   }
 }
 
-const counter = counterMaker(1)
+const counterOne = counterMaker(1)
+const counterTwo = counterMaker(1)
 
-const advanceCounter = () => {
-  document.getElementById('counterDisplay').innerText = counter();
+const advanceCounterOne = () => {
+  document.getElementById('counterOneDisplay').innerText = counterOne();
+}
+
+const advanceCounterTwo = () => {
+  document.getElementById('counterTwoDisplay').innerText = counterTwo();
 }
